@@ -1,0 +1,35 @@
+{
+  "products": [{
+    "fairy_sparklers": {
+        "id": 0,
+        "typeId": 0,
+        "name": "Fairy Sparklers",
+        "description": "Multi-colored sparklers that are safe for any age."
+    },
+    "dy_no_mite": {
+      "id": 1,
+      "typeId": 3,
+      "name": "Dy-No-Mite!",
+      "description": "Sticks of boom. Necessary for any attempts to build a road or kill a road runner."
+    },
+    "dy_YES_mite": {
+      "id": 1,
+      "typeId": 3,
+      "name": "Dy-YES-Mite!",
+      "description": "Sticks of DOOM. Necessary for any attempts to kill a universe."
+    },
+    "oooh_maker": {
+      "id": 2,
+      "typeId": 1,
+      "name": "The Oooh Maker",
+      "description": "Sizzles, sparkles, and kapows its way into every patriotic heart"
+    },
+    "charred_stump": {
+      "id": 3,
+      "typeId": 2,
+      "name": "The Charred Stump",
+      "description": "Extremely short fuse and enough gunpowder to launch a cannonball"
+    }
+
+  }]
+}

@@ -1,0 +1,40 @@
+{
+  "types": [
+    {
+      "id": 0,
+      "categoryId": 0,
+      "name": "personal",
+      "description": "Fireworks intended for recreational use during holiday celebrations"
+    },
+    {
+      "id": 1,
+      "categoryId": 0,
+      "name": "professional",
+      "description": "Fireworks intended for professional use during municipal celebrations"
+    },
+    {
+      "id": 2,
+      "categoryId": 0,
+      "name": "insane",
+      "description": "Fireworks intended for dismembering drunk morons during inappropriate celebrations"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "site reshaping",
+      "description": "Rock-blasting awesomeness"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "name": "building leveling",
+      "description": "For paving paradise to put in a parking lot"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "name": "nation wiping-outing",
+      "description": "For removing those pesky island nations"
+    }
+  ]
+}

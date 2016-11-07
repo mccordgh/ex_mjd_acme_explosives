@@ -1,0 +1,27 @@
+html, body, ul {
+	margin: 0;
+	font-size: 16px;
+}
+
+select {
+	height: 40px;
+	width: 250px;
+	font-size: 1.25em;
+}
+
+h1 {
+	font-size: 3em;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+li {
+	border: 2px solid red;
+	font-size: 1.25em;
+	margin: 5px;
+	padding: 5px;
+}
+
+#wrapper {
+	margin: 50px;
+}
