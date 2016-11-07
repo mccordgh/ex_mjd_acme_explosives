@@ -14,7 +14,7 @@ Promise.all([getFile('data/categories.json'), getFile('data/products.json'), get
 	});
 
 function handleMenuChange(event) {
-	productDisplay.innerHTML = "";
+	$(productDisplay).html("");
 	let products = gatherProducts(event.target.value)
 	displayProducts(products);
 }
@@ -76,8 +76,8 @@ function getFile(filePath) {
 function displayProducts(products) {
 	products.forEach ( (item) => {
 		var newLi = document.createElement("LI");
-		newLi.innerHTML = `Name: ${item.name}<br>Description: ${item.description}`;
-		newLi.classList.add("col-md-10");
 		productDisplay.appendChild(newLi);
+		$(newLi).html(`Name: ${item.name}<br>Description: ${item.description}`);
+		newLi.classList.add("col-md-10");
 	});
 }
